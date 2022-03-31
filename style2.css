@@ -125,4 +125,14 @@ button:hover{
   display: none;
 }
 
+@media (max-width:600px) {
+  .card {
+    border-radius: 10px;
+    width: 70%;
+
+    margin-bottom: 100px;
+  
+  }
+}
+
 

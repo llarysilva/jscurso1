@@ -58,8 +58,9 @@ h1{
 }
 
 .label-float label{
+
   color: #272262;
-  pointer-event: none;
+  pointer-events: none;
   position: absolute;
   top: 0;
   left: 0;
@@ -136,4 +137,13 @@ a:hover{
   padding: 10px;
   border-radius: 4px;
   display: none;
+}
+
+
+@media (max-width:360px) {
+  .card {
+    border-radius: 10px;
+    width: 240px;
+  
+  }
 }
